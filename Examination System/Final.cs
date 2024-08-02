@@ -25,6 +25,7 @@ namespace Examination_System
                         Grade += Questions[i].Mark;
                     }
                     TotalGrade += Questions[i].Mark;
+
                 }
                 Console.WriteLine("You Finsh The Exam Good Luck !");
                 Console.Clear();
